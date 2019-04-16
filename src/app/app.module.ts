@@ -7,12 +7,11 @@ import { HelloComponent } from './hello.component';
 import { FormComponent } from './form/form.component';
 import { TabelaComponent } from './tabela/tabela.component';
 import { ServicoService } from './servico.service';
-import { ClienteService } from './cliente.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, FormComponent, TabelaComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ServicoService, ClienteService]
+  providers: [ServicoService]
 })
 export class AppModule { }

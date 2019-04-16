@@ -3,5 +3,4 @@ export class Cliente {
   id:number = ++Cliente.cont;
   nome:string;
   idade: number;
-
 }
